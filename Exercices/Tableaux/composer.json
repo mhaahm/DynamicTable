@@ -1,0 +1,17 @@
+{
+    "name": "dell_pc/tableaux",
+    "authors": [
+        {
+            "name": "mha",
+            "email": "moham.hassen@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^4.3"
+    },
+    "autoload":{
+        "psr-4":{
+            "App\\" : "src/"
+        }
+    }
+}
