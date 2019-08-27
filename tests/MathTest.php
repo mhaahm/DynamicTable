@@ -7,16 +7,15 @@
  */
 use PHPUnit\Framework\TestCase;
 
-class MathTest extends TestCase
+class DB1902Test extends TestCase
 {
-    public function testDouble()
+    public function testUnidirect()
     {
-        $double = \Event\Math::double(2);
-        $this->assertEquals(4,$double);
+        // Todo implement the logic test
     }
 
-    public function testDoubleIfzero()
+    public function testBidirect()
     {
-        $this->assertEquals(0,\Event\Math::double(0));
+        // Todo implement the logic test
     }
 }
